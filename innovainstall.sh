@@ -107,7 +107,7 @@ if [[ $(lsb_release -d) == *16.04* ]]; then
 	echo "PLEASE WAIT"
 	sleep 20
 	echo "Loading bootstrap"
-	wget https://raw.githubusercontent.com/mangae/Innova_bootstrap/master/bootstrap.sh
+	wget https://www.dropbox.com/preview/innovabootstrap.zip
 	bash bootstrap.sh
 	cd
 	echo "Please record your Masternode private key and use it for setup at your local wallet side: $masternodekey"
@@ -150,7 +150,7 @@ elif [[ $(lsb_release -d) == *18.10* ]]; then
 	mkdir .innovacore
 	mkdir inncoin
 	cd inncoin
-	wget https://www.dropbox.com/s/1b56ioxqcc1mpwi/Innova-Ubuntu-16.04.zip
+	wget https://www.dropbox.com/s/whajbc47ws781mv/Innova-Ubuntu-16.04.zip
 	sudo unzip Innova-Ubuntu-16.04.zip
 	sudo cp innovad /usr/local/bin
 	sudo cp innova-cli /usr/local/bin
