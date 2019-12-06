@@ -8,7 +8,7 @@ BLUE='\033[0;34m'
 PURPLE='\033[0;35m'
 YELLOW='\033[1;33m'
 BROWN='\033[0;34m'
-NC='\033[0m' # No Color
+NC='\033[0;0m' # No Color
 
 echo && echo
 echo "*******************v1.12.1******************"
