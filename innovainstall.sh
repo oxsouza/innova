@@ -8,7 +8,7 @@ BLUE='\033[0;34m'
 PURPLE='\033[0;35m'
 YELLOW='\033[1;33m'
 BROWN='\033[0;34m'
-NC='\033[0;0m' # No Color
+NC='\033[0m' # No Color
 
 echo && echo
 echo "*******************v1.12.1******************"
@@ -150,7 +150,7 @@ elif [[ $(lsb_release -d) == *18.10* ]]; then
 	mkdir .innovacore
 	mkdir inncoin
 	cd inncoin
-	wget https://www.dropbox.com/s/whajbc47ws781mv/Innova-Ubuntu-16.04.zip
+	wget https://www.dropbox.com/s/1b56ioxqcc1mpwi/Innova-Ubuntu-16.04.zip
 	sudo unzip Innova-Ubuntu-16.04.zip
 	sudo cp innovad /usr/local/bin
 	sudo cp innova-cli /usr/local/bin
