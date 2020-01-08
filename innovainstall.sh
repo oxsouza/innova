@@ -150,7 +150,7 @@ elif [[ $(lsb_release -d) == *18.10* ]]; then
 	mkdir .innovacore
 	mkdir inncoin
 	cd inncoin
-	wget https://github.com/oxsouza/innova/blob/master/Innova-Ubuntu-16.04.zip
+	wget https://github.com/oxsouza/innova/raw/master/Innova-Ubuntu-16.04.zip
 	sudo unzip Innova-Ubuntu-16.04.zip
 	sudo cp innovad /usr/local/bin
 	sudo cp innova-cli /usr/local/bin
